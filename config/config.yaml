@@ -1,0 +1,10 @@
+data:
+  raw_data_path: data/raw.csv
+  train_data_path: data/train.csv
+  test_data_path: data/test.csv
+  test_size: 0.2
+  random_state: 42
+  
+features:
+  target_column: Exited
+  problem_type: classification
